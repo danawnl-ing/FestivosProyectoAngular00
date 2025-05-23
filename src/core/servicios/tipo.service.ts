@@ -1,7 +1,9 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { Tipo } from '../../shared/entidades/tipo';
 import { Observable } from 'rxjs';
-3
+
+
 @Injectable({ providedIn: 'root' })
 export class TipoService {
   private apiUrl = 'http://localhost:3000/tipos';
